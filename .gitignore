@@ -1,0 +1,38 @@
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# HuggingFace / Model files
+chatbot_model/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.h5
+
+# Transformers tokenizers cache
+.tokenizers_cache/
+.hf/
+.cache/
+huggingface/
+transformers_cache/
+
+# Streamlit / FastAPI extras
+.streamlit/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
